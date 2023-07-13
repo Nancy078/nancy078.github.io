@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-[Download Here] (CV.docx - Google Docs.pdf)
+[Download Here] (./CV.docx - Google Docs.pdf)
