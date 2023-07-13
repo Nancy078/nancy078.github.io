@@ -7,6 +7,6 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+<!--{% include base_path %}-->
 
-[Download Here] (./CV.docx - Google Docs.pdf)
+Download my CV [here] (./cv.pdf)
