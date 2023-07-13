@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate/Graduate course"
 permalink: /teaching/data100
 venue: "UC Berkeley College of Computing, Data Science, and Society"
-date: 2022
+date: 2022-05-04
 location: "Berkeley"
 ---
 May 2022 -- Dec 2022
