@@ -1,5 +1,5 @@
 ---
-title: "Data Science Undergrad Student Instructor"
+title: "Data Science (DATA 100) Undergrad Student Instructor"
 collection: teaching
 type: "Undergraduate/Graduate course"
 permalink: /teaching/data100
