@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am a first year PhD student at University of Michigan School of Information (UMSI) studying NLP and computational social science, advised by David Jurgens and Justine Zhang. I am a part of [Blablablab](https://blablablab.si.umich.edu/). I am particularly interested in studying conversation analysis and social media.
+Hi! I am a second year PhD student at University of Michigan School of Information (UMSI) studying NLP and computational social science, advised by David Jurgens and Justine Zhang. I am a part of the [Blablablab](https://blablablab.si.umich.edu/). I am particularly interested in studying conversations in institutional settings.
 
 I graduated with BA in Statistics and Data Science from UC Berkeley in 2023.
 
