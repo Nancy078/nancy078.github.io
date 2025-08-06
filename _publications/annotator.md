@@ -1,5 +1,5 @@
 ---
-title: "Causally Modeling the Linguistic and Social Factors that Predict Email Response"
+title: "Modeling Annotator Disagreement with Demographic-Aware Experts and Synthetic Perspectives"
 collection: publications
 permalink: /publication/annotator
 date: 2025-08-05
