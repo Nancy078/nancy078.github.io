@@ -5,7 +5,15 @@
 /*
    Typography
    ========================================================================== */
-
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+body {
+   font-family: 'Libre Baskerville', serif !important;
+ }
+ 
+ h1, h2, h3, h4, h5, h6 {
+   font-family: 'Libre Baskerville', serif !important;
+ }
+ 
 $doc-font-size              : 16;
 
 /* paragraph indention */
@@ -25,7 +33,8 @@ $helvetica                  : Helvetica, "Helvetica Neue", Arial, sans-serif;
 $georgia                    : Georgia, serif;
 $times                      : Times, serif;
 $bodoni                     : "Bodoni MT", serif;
-$calisto                    : "Calisto MT", serif;
+// $calisto                    : "Calisto MT", serif;
+$calisto: 'Libre Baskerville', serif;
 $garamond                   : Garamond, serif;
 
 // $global-font-family         : $sans-serif;
