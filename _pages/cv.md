@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-Download my CV [here](./cv.pdf) 
+Download my CV [here](./Xu__Yinuo___Resume.pdf) 
