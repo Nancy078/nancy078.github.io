@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Yinuo (Nancy) Xu"
 title_separator          : "-"
 name                     : &name "Yinuo (Nancy) Xu"
-description              : &description "personal description"
+description              : &description "PhD student in NLP and computational social science at the University of Michigan, researching annotator disagreement and pluralistic judgment."
 url                      : https://nancy078.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "nancy078/nancy078.github.io"
@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Yinuo (Nancy) Xu"
   avatar           : "profile.png"
-  bio              : "Third year PhD Student in NLP and computational social science at University of Michigan"
-  location         :
+  bio              : "Fourth year PhD Student in NLP and computational social science at University of Michigan"
+  location         : "Ann Arbor, MI"
   employer         :
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=CNaKXIEAAAAJ&hl=en"

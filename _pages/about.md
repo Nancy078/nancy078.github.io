@@ -14,6 +14,8 @@ Information (UMSI), advised by David Jurgens and part of the
 computational social science. Before Michigan, I received a BA in Statistics
 and Data Science from UC Berkeley in 2023. In summer 2026 I was a research and development intern at Kitware, where I worked on personalized LLM steering.
 
+**Looking for a research internship for Summer 2027.**
+
 My research is on annotator disagreement and pluralistic judgment. Standard
 practice aggregates many people's labels into a single "gold standard" and
 treats everything else as error. However, on subjective tasks, that disagreement
@@ -22,7 +24,7 @@ and what the item itself is. I build models that represent diverse human judgmen
 
 <div class="pub-box" markdown="1">
 
-**Selected Publications**
+## Selected Publications
 
 - Xu, Y., Derricks, V., Earl, A., & Jurgens, D. (2026). Modeling annotator
   disagreement with demographic-aware experts and synthetic perspectives.
@@ -33,7 +35,7 @@ and what the item itself is. I build models that represent diverse human judgmen
 
 </div>
 
-**Currently**
+## Currently
 
 I'm building **B-HAP**, a hierarchical Bayesian framework that generates
 per-annotator LoRA adapters from task, data, and annotator features, pooling
