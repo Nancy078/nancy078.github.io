@@ -16,9 +16,11 @@ and Data Science from UC Berkeley in 2023. In summer 2026 I was a research and d
 
 My research is on annotator disagreement and pluralistic judgment. Standard
 practice aggregates many people's labels into a single "gold standard" and
-treats everything else as error — but on subjective tasks, that disagreement
+treats everything else as error. However, on subjective tasks, that disagreement
 is often meaningful, rooted in who the annotator is, how the task is defined,
 and what the item itself is. I build models that represent diverse human judgments, situated in the annotator’s identities, task, and data factors.
+
+<div class="pub-box" markdown="1">
 
 **Selected Publications**
 
@@ -28,6 +30,8 @@ and what the item itself is. I build models that represent diverse human judgmen
 - Xu, Y., & Jurgens, D. (2026). Beyond consensus: Perspectivist modeling and
   evaluation of annotator disagreement in NLP. *EMNLP 2026*.
   [[arXiv]](https://arxiv.org/abs/2601.09065)
+
+</div>
 
 **Currently**
 
