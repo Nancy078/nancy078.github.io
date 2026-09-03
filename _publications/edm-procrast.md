@@ -10,9 +10,3 @@ late shopper? mining enrollment transaction data to study procrastination in hig
 Proceedings of the 17th International Conference on Educational
 Data Mining, pages 426–433, Atlanta, Georgia, USA, July 2024. International Educational Data Mining Society.'
 ---
-
-<!--This paper is about the number 1. The number 2 is left for future work.-->
-<!---->
-
-<!---->
-<!--Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).-->
