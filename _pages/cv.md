@@ -18,7 +18,7 @@ redirect_from:
     <a href="https://github.com/{{ site.author.github }}">GitHub</a> &middot;
     <a href="{{ site.author.googlescholar }}">Google Scholar</a>
   </p>
-  <a class="btn cv-download" href="./Xu__Yinuo___Resume_public.pdf">Download PDF</a>
+  <a class="btn cv-download" href="{{ base_path }}/files/Xu__Yinuo___Resume_public.pdf">Download PDF</a>
 </div>
 
 <section class="cv-section">
