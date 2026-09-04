@@ -8,6 +8,8 @@ redirect_from:
   - /about.html
 ---
 
+<p class="thesis-statement">I build NLP models that treat disagreement as signal, not noise.</p>
+
 Hi! I'm a fourth-year PhD student at the University of Michigan School of
 Information (UMSI), advised by David Jurgens and part of the
 [Blablablab](https://blablablab.si.umich.edu/). I work on NLP and
@@ -24,13 +26,13 @@ and what the item itself is. I build models that represent diverse human judgmen
 
 ## Recent Publications
 
-- Xu, Y., Derricks, V., Earl, A., & Jurgens, D. (2026). Modeling annotator
+- <span class="venue-tag">ACL 2026 · Oral</span> Xu, Y., Derricks, V., Earl, A., & Jurgens, D. (2026). Modeling annotator
   disagreement with demographic-aware experts and synthetic perspectives.
-  *ACL 2026* (oral). [[paper]](https://aclanthology.org/2026.acl-long.1914/)
-- Xu, Y., & Jurgens, D. (2026). Beyond consensus: Perspectivist modeling and
-  evaluation of annotator disagreement in NLP. *EMNLP 2026*.
+  [[paper]](https://aclanthology.org/2026.acl-long.1914/)
+- <span class="venue-tag">EMNLP 2026</span> Xu, Y., & Jurgens, D. (2026). Beyond consensus: Perspectivist modeling and
+  evaluation of annotator disagreement in NLP.
   [[arXiv]](https://arxiv.org/abs/2601.09065)
-- Borchers, C., Xu, Y., & Pardos, Z. A. (2025). Workload overload? Late
+- <span class="venue-tag">JEDM 2025</span> Borchers, C., Xu, Y., & Pardos, Z. A. (2025). Workload overload? Late
   enrollment leads to course dropout. *Journal of Educational Data Mining*,
   17(1), 126–156.
 

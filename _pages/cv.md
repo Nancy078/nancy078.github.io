@@ -55,13 +55,13 @@ redirect_from:
 <section class="cv-section">
   <h2 class="cv-section-title">Publications</h2>
   <ul class="cv-list">
-    <li>Xu, Y., &amp; Jurgens, D. (2026). Beyond consensus: Perspectivist modeling and evaluation of annotator disagreement in NLP. <a href="https://arxiv.org/abs/2601.09065">EMNLP 2026</a>.</li>
-    <li>Xu, Y., Derricks, V., Earl, A., &amp; Jurgens, D. (2026). Modeling annotator disagreement with demographic-aware experts and synthetic perspectives. <a href="https://aclanthology.org/2026.acl-long.1914/">ACL 2026 (oral)</a>.</li>
-    <li>Xu, Y., Chen, H., Rakshit, S., et al., &amp; Jurgens, D. (2025). Causally modeling the linguistic and social factors that predict email response. <a href="https://aclanthology.org/2025.naacl-long.594/">NAACL 2025</a>. (Equal contribution)</li>
-    <li>Borchers, C., Xu, Y., &amp; Pardos, Z. A. (2025). Workload overload? Late enrollment leads to course dropout. <em>Journal of Educational Data Mining</em>, 17(1), 126&ndash;156.</li>
-    <li>Borchers, C., Xu, Y., &amp; Pardos, Z. A. (2024). Are you an early dropper or late shopper? Mining enrollment transaction data to study procrastination in higher education. <a href="https://educationaldatamining.org/edm2024/proceedings/2024.EDM-short-papers.41/2024.EDM-short-papers.41.pdf">EDM 2024</a>.</li>
-    <li>Xu, Y., &amp; Pardos, Z. A. (2024). Extracting course similarity signal using subword embeddings. <a href="https://doi.org/10.1145/3636555.3636903">LAK 2024</a>.</li>
-    <li>Xu, Y., &amp; Pardos, Z. A. (2023). Mining detailed course transaction records for semantic information. <a href="https://educationaldatamining.org/EDM2023/proceedings/2023.EDM-short-papers.39/2023.EDM-short-papers.39.pdf">EDM 2023</a>.</li>
+    <li><a class="venue-tag" href="https://arxiv.org/abs/2601.09065">EMNLP 2026</a> Xu, Y., &amp; Jurgens, D. (2026). Beyond consensus: Perspectivist modeling and evaluation of annotator disagreement in NLP.</li>
+    <li><a class="venue-tag" href="https://aclanthology.org/2026.acl-long.1914/">ACL 2026 · Oral</a> Xu, Y., Derricks, V., Earl, A., &amp; Jurgens, D. (2026). Modeling annotator disagreement with demographic-aware experts and synthetic perspectives.</li>
+    <li><a class="venue-tag" href="https://aclanthology.org/2025.naacl-long.594/">NAACL 2025</a> Xu, Y., Chen, H., Rakshit, S., et al., &amp; Jurgens, D. (2025). Causally modeling the linguistic and social factors that predict email response. (Equal contribution)</li>
+    <li><span class="venue-tag">JEDM 2025</span> Borchers, C., Xu, Y., &amp; Pardos, Z. A. (2025). Workload overload? Late enrollment leads to course dropout. <em>Journal of Educational Data Mining</em>, 17(1), 126&ndash;156.</li>
+    <li><a class="venue-tag" href="https://educationaldatamining.org/edm2024/proceedings/2024.EDM-short-papers.41/2024.EDM-short-papers.41.pdf">EDM 2024</a> Borchers, C., Xu, Y., &amp; Pardos, Z. A. (2024). Are you an early dropper or late shopper? Mining enrollment transaction data to study procrastination in higher education.</li>
+    <li><a class="venue-tag" href="https://doi.org/10.1145/3636555.3636903">LAK 2024</a> Xu, Y., &amp; Pardos, Z. A. (2024). Extracting course similarity signal using subword embeddings.</li>
+    <li><a class="venue-tag" href="https://educationaldatamining.org/EDM2023/proceedings/2023.EDM-short-papers.39/2023.EDM-short-papers.39.pdf">EDM 2023</a> Xu, Y., &amp; Pardos, Z. A. (2023). Mining detailed course transaction records for semantic information.</li>
   </ul>
   <p><a href="{{ base_path }}/publications/">&rarr; Full publication list with citations</a></p>
 </section>
