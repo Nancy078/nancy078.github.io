@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .pub-box {
-  border: 1.5px solid $gray;
+  border: 1.5px solid $link-color;
   border-radius: 12px;
   padding: 1em 1.5em;
   margin: 1.5em 0;
@@ -15,6 +15,12 @@
   > *:last-child {
     margin-bottom: 0;
   }
+}
+
+/* the 1-2 phrases that define your research identity -- use sparingly */
+.accent-term {
+  color: $link-color;
+  font-weight: 600;
 }
 
 /* ==========================================================================

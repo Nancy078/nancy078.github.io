@@ -14,7 +14,7 @@ Information (UMSI), advised by David Jurgens and part of the
 computational social science. Before Michigan, I received a BA in Statistics
 and Data Science from UC Berkeley in 2023. In summer 2026 I was a research and development intern at Kitware, where I worked on personalized LLM steering.
 
-My research is on **annotator disagreement** and **pluralistic judgment**. Standard
+My research is on <span class="accent-term">annotator disagreement</span> and <span class="accent-term">pluralistic judgment</span>. Standard
 practice aggregates many people's labels into a single "gold standard" and
 treats everything else as error. However, on subjective tasks, that disagreement
 is often meaningful, rooted in who the annotator is, how the task is defined,
