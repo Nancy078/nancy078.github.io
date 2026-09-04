@@ -16,3 +16,99 @@
     margin-bottom: 0;
   }
 }
+
+/* ==========================================================================
+   CV page
+   ========================================================================== */
+
+.cv-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.5em 1.5em;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1.5px solid $border-color;
+
+  p {
+    margin: 0;
+  }
+}
+
+.cv-download {
+  white-space: nowrap;
+}
+
+.cv-section {
+  margin-top: 2.2em;
+
+  &:first-of-type {
+    margin-top: 0;
+  }
+}
+
+.cv-section-title {
+  font-size: 1.1em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  border-bottom: 2px solid $text-color;
+  padding-bottom: 0.2em;
+  margin-bottom: 0.9em;
+}
+
+.cv-entry {
+  margin-bottom: 1em;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.cv-entry-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0 1em;
+  font-weight: 700;
+}
+
+.cv-entry-date {
+  font-weight: 400;
+  font-style: italic;
+  color: $dark-gray;
+  white-space: nowrap;
+}
+
+.cv-entry-sub {
+  font-style: italic;
+  color: $dark-gray;
+  margin: 0.15em 0 0.4em;
+}
+
+.cv-entry ul {
+  margin: 0.3em 0 0;
+  padding-left: 1.3em;
+
+  li {
+    margin-bottom: 0.3em;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.cv-list {
+  margin: 0;
+  padding-left: 1.3em;
+
+  li {
+    margin-bottom: 0.4em;
+  }
+}
+
+.cv-skills {
+  line-height: 1.85;
+}

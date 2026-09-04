@@ -30,6 +30,9 @@ and what the item itself is. I build models that represent diverse human judgmen
 - Xu, Y., & Jurgens, D. (2026). Beyond consensus: Perspectivist modeling and
   evaluation of annotator disagreement in NLP. *EMNLP 2026*.
   [[arXiv]](https://arxiv.org/abs/2601.09065)
+- Borchers, C., Xu, Y., & Pardos, Z. A. (2025). Workload overload? Late
+  enrollment leads to course dropout. *Journal of Educational Data Mining*,
+  17(1), 126–156.
 
 [See all publications →](/publications/)
 
