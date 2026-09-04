@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<p class="thesis-statement">I build NLP models that treat disagreement as signal, not noise.</p>
+<p class="thesis-statement">I build NLP models that treat annotator disagreement as signal rather than noise.</p>
 
 Hi! I'm a fourth-year PhD student at the University of Michigan School of
 Information (UMSI), advised by David Jurgens and part of the
