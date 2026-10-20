@@ -29,7 +29,7 @@ and what the item itself is. I build models that represent diverse human judgmen
 - <span class="venue-tag">ACL 2026 · Oral</span> Xu, Y., Derricks, V., Earl, A., & Jurgens, D. (2026). Modeling annotator
   disagreement with demographic-aware experts and synthetic perspectives.
   [[paper]](https://aclanthology.org/2026.acl-long.1914/)
-- <span class="venue-tag">EMNLP 2026</span> Xu, Y., & Jurgens, D. (2026). Beyond consensus: Perspectivist modeling and
+- <span class="venue-tag">EMNLP 2026 · Oral</span> Xu, Y., & Jurgens, D. (2026). Beyond consensus: Perspectivist modeling and
   evaluation of annotator disagreement in NLP.
   [[arXiv]](https://arxiv.org/abs/2601.09065)
 - <span class="venue-tag">NAACL 2025</span> Xu, Y., Chen, H., Rakshit, S., et al., & Jurgens, D. (2025). Causally

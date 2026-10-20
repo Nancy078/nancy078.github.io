@@ -11,7 +11,7 @@ redirect_from:
 
 <div class="cv-header">
   <p>
-    PhD Candidate, University of Michigan &middot; NLP &amp; LLM Researcher<br>
+    PhD Candidate, University of Michigan &middot; LLM Personalization &amp; Pluralistic Alignment<br>
     <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a> &middot;
     Ann Arbor, MI &middot;
     <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a> &middot;
@@ -27,9 +27,9 @@ redirect_from:
   <div class="cv-entry">
     <div class="cv-entry-header">
       <span>University of Michigan, Ann Arbor</span>
-      <span class="cv-entry-date">2023 &ndash; Present</span>
+      <span class="cv-entry-date">2023 &ndash; Expected May 2028</span>
     </div>
-    <div class="cv-entry-sub">Ph.D. in Information &middot; Advisor: David Jurgens</div>
+    <div class="cv-entry-sub">Ph.D. in Information (GPA: 3.80/4.00) &middot; Advisor: David Jurgens</div>
   </div>
 
   <div class="cv-entry">
@@ -37,31 +37,28 @@ redirect_from:
       <span>University of California, Berkeley</span>
       <span class="cv-entry-date">2023</span>
     </div>
-    <div class="cv-entry-sub">B.A. in Data Science &amp; Statistics</div>
+    <div class="cv-entry-sub">B.A. in Data Science &amp; Statistics (GPA: 3.83/4.00)</div>
   </div>
 </section>
 
 <section class="cv-section">
   <h2 class="cv-section-title">Awards, Grants &amp; Leadership</h2>
   <ul class="cv-list">
-    <li>Co-Organizer, <em>Personalization Without Prejudice</em> (PwP) workshop proposal under review, ACL 2026</li>
-    <li>Organizer, Michigan NLP Reading Group, 2025&ndash;2026</li>
+    <li>Co-Organizer, <em>Personalization Without Prejudice</em> (PwP) workshop, EMNLP 2027</li>
     <li>Organizer, NLP@Michigan Day 2026, 2025&ndash;2026</li>
+    <li>Organizer, Michigan NLP Reading Group, 2025&ndash;2026</li>
     <li>Science Communication Fellow (selected as 1 of 20 fellows university-wide), 2023&ndash;2024</li>
     <li>University of Michigan School of Information Merit Fellowship, 2023</li>
   </ul>
 </section>
 
 <section class="cv-section">
-  <h2 class="cv-section-title">Publications</h2>
+  <h2 class="cv-section-title">Publications (Selected)</h2>
   <ul class="cv-list">
-    <li><a class="venue-tag" href="https://arxiv.org/abs/2601.09065">EMNLP 2026</a> Xu, Y., &amp; Jurgens, D. (2026). Beyond consensus: Perspectivist modeling and evaluation of annotator disagreement in NLP.</li>
+    <li><span class="venue-tag">Under Review (ARR)</span> Xu, Y., Adams, J., Hu, B., Kumar, S., Jurgens, D., &amp; Basharat, A. (2026). VISTA: Steering LLMs with latent user values inferred from a few survey answers.</li>
+    <li><a class="venue-tag" href="https://arxiv.org/abs/2601.09065">EMNLP 2026 · Oral</a> Xu, Y., &amp; Jurgens, D. (2026). Beyond consensus: Perspectivist modeling and evaluation of annotator disagreement in NLP.</li>
     <li><a class="venue-tag" href="https://aclanthology.org/2026.acl-long.1914/">ACL 2026 · Oral</a> Xu, Y., Derricks, V., Earl, A., &amp; Jurgens, D. (2026). Modeling annotator disagreement with demographic-aware experts and synthetic perspectives.</li>
     <li><a class="venue-tag" href="https://aclanthology.org/2025.naacl-long.594/">NAACL 2025</a> Xu, Y., Chen, H., Rakshit, S., et al., &amp; Jurgens, D. (2025). Causally modeling the linguistic and social factors that predict email response. (Equal contribution)</li>
-    <li><span class="venue-tag">JEDM 2025</span> Borchers, C., Xu, Y., &amp; Pardos, Z. A. (2025). Workload overload? Late enrollment leads to course dropout. <em>Journal of Educational Data Mining</em>, 17(1), 126&ndash;156.</li>
-    <li><a class="venue-tag" href="https://educationaldatamining.org/edm2024/proceedings/2024.EDM-short-papers.41/2024.EDM-short-papers.41.pdf">EDM 2024</a> Borchers, C., Xu, Y., &amp; Pardos, Z. A. (2024). Are you an early dropper or late shopper? Mining enrollment transaction data to study procrastination in higher education.</li>
-    <li><a class="venue-tag" href="https://doi.org/10.1145/3636555.3636903">LAK 2024</a> Xu, Y., &amp; Pardos, Z. A. (2024). Extracting course similarity signal using subword embeddings.</li>
-    <li><a class="venue-tag" href="https://educationaldatamining.org/EDM2023/proceedings/2023.EDM-short-papers.39/2023.EDM-short-papers.39.pdf">EDM 2023</a> Xu, Y., &amp; Pardos, Z. A. (2023). Mining detailed course transaction records for semantic information.</li>
   </ul>
   <p><a href="{{ base_path }}/publications/">&rarr; Full publication list with citations</a></p>
 </section>
@@ -72,14 +69,12 @@ redirect_from:
   <div class="cv-entry">
     <div class="cv-entry-header">
       <span>Research &amp; Development Intern, Kitware</span>
-      <span class="cv-entry-date">May 2026 &ndash; Present</span>
+      <span class="cv-entry-date">May 2026 &ndash; Aug 2026</span>
     </div>
-    <div class="cv-entry-sub">Project: Personalized LLM Steering from Inferred Value Latents</div>
+    <div class="cv-entry-sub">Project: VISTA &mdash; Steering LLMs with Latent User Values Inferred from a Few Survey Answers</div>
     <ul>
-      <li>Designed an end-to-end pipeline that infers individual users' latent value profiles from a few survey responses, with a Bayesian active-learning module adaptively selecting the most informative elicitation questions.</li>
-      <li>Built a variational information-bottleneck encoder compressing responses into a low-dimensional value embedding with demographic priors for cold-start, then a hypernetwork amortizing the latent-to-steering-vector map so new users require no optimization, gated by posterior uncertainty.</li>
-      <li>Evaluated against SOTA steering methods across four value datasets: +0.22 user-specific accuracy over zero-shot, outperforming existing steering methods.</li>
-      <li>Ran interpretability analysis recovering a binding-vs-individualizing moral foundations axis in the learned steering vectors.</li>
+      <li>Led development of VISTA, which infers a probabilistic user-value profile from survey answers (variational encoder) and maps it via a hypernetwork to steering vectors and soft prompts to steer a frozen Llama-3-8B for personalized alignment in choice selection and free-text generation (soft prompts refined with personalized DPO). Matched or beat in-context profile prompting on 3 datasets (up to &sim;10 accuracy points) with no added prompt tokens; in free-text generation, using only survey answers, outperformed prompting with answers plus demographics, with the best net gain across minority- and majority-view users.</li>
+      <li>Designed adaptive questioning that personalizes from just 6% of a survey, choosing the most informative questions and stopping automatically while keeping 94% of the full-survey accuracy gain (vs. at most 42% for standard adaptive testing).</li>
     </ul>
   </div>
 
@@ -88,56 +83,39 @@ redirect_from:
       <span>Lead Researcher, University of Michigan School of Information</span>
       <span class="cv-entry-date">Aug 2023 &ndash; Present</span>
     </div>
-    <div class="cv-entry-sub">Project 1: Modeling Annotator Disagreement with Demographic-Aware Experts</div>
+
+    <div class="cv-entry-sub">Survey: Perspectivist Modeling of Annotator Disagreement (EMNLP 2026 &middot; Oral)</div>
+    <ul>
+      <li>Synthesized 110+ works on annotator disagreement in subjective, safety-relevant tasks (e.g., toxicity) into a unified taxonomy of disagreement sources and a framework of prediction targets and pooling structures, identifying the modeling gaps that motivate Project 2.</li>
+    </ul>
+
+    <div class="cv-entry-sub">Project 1: Modeling Annotator Disagreement with Demographic-Aware Experts (ACL 2026 &middot; Oral)</div>
     <ul>
       <li>Designed Demographic-Aware Mixture-of-Experts, an interpretable architecture with demographic-aware routing to capture structured variation in annotation behavior and intersectional perspectives.</li>
-      <li>Achieved state-of-the-art subgroup-level performance across five benchmark datasets, particularly under data imbalance or sparse subgroup representation.</li>
+      <li>Achieved state-of-the-art subgroup-level performance across five benchmark datasets, improving fairness for underrepresented groups under data imbalance and sparse subgroup data.</li>
       <li>Evaluated LLM annotation reliability through zero-shot, few-shot, and LoRA-finetuned experiments, measuring alignment between persona-prompted LLM ratings and human judgments.</li>
-      <li>Developed data-efficient pipelines blending real and LLM-generated synthetic annotations with alignment-weighted loss; implemented multi-GPU training workflows for model scaling and reproducibility; paper accepted at ACL 2026 (<a href="https://arxiv.org/abs/2508.02853">arXiv:2508.02853</a>).</li>
+      <li>Developed data-efficient pipelines blending real and LLM-generated synthetic annotations with alignment-weighted loss; implemented multi-GPU training workflows for model scaling and reproducibility.</li>
     </ul>
-    <div class="cv-entry-sub">Project 2: B-HAP: Bayesian Hierarchical Adapter Personas for Situated Judgment Modeling</div>
-    <ul>
-      <li>Designing a hypernetwork-based framework generating parameter-efficient LoRA adapters from task, data, and annotator-feature interactions, with a three-level Bayesian hierarchy (population, subpopulation, individual) to align model behavior with group norms.</li>
-      <li>Leading evaluation across a 140K-instance benchmark spanning normative, pragmatic, and preference-judgment tasks, benchmarked against Jury Learning, Mixture-of-Personas, and sociodemographic prompting baselines.</li>
-    </ul>
-  </div>
 
-  <div class="cv-entry">
-    <div class="cv-entry-header">
-      <span>Lead Researcher, UMich School of Information &amp; Social Psychology</span>
-      <span class="cv-entry-date">Aug 2023 &ndash; Present</span>
-    </div>
-    <div class="cv-entry-sub">Project: Measuring Racial Disparities in Doctor-Patient Conversations</div>
+    <div class="cv-entry-sub">Project 2: Bayesian Hierarchical Adapter Personas</div>
     <ul>
-      <li>Built a large-scale annotation pipeline to evaluate doctor communication quality using a diverse pool of crowdworkers; designed and deployed a custom annotation interface to ensure demographic balance and inter-rater reliability.</li>
-      <li>Developed a zero-shot LLaMA-70B annotation pipeline to label doctor behaviors (respect, formality) with prompt-engineered templates, validating alignment with human ratings.</li>
-      <li>Designed and implemented a causal mediation model linking race &rarr; doctor language &rarr; respect perception &rarr; patient trust, revealing differential behavior&ndash;trust pathways across demographic groups.</li>
-      <li>Paper in preparation for <em>PNAS</em>.</li>
+      <li>Designing a hypernetwork-based framework that generates parameter-efficient LoRA adapters from task, data, and annotator-feature interactions, with a three-level Bayesian hierarchy (population, subpopulation, individual) for pluralistic alignment of model behavior with group and individual norms.</li>
+      <li>Leading evaluation on a 140K-instance benchmark spanning normative, pragmatic, and preference-judgment tasks, against Jury Learning, Mixture-of-Personas, and sociodemographic prompting baselines.</li>
     </ul>
-  </div>
 
-  <div class="cv-entry">
-    <div class="cv-entry-header">
-      <span>Graduate Research Assistant, UMich School of Information</span>
-      <span class="cv-entry-date">March 2024</span>
-    </div>
-    <div class="cv-entry-sub">Project: Causal Modeling of Linguistic and Social Factors in Email Response (NAACL 2025)</div>
+    <div class="cv-entry-sub">Project 3: Measuring Racial Disparities in Doctor-Patient Conversations</div>
     <ul>
-      <li>Co-led the development of causal inference models analyzing linguistic and social predictors of email responsiveness, combining structural equation modeling with LLM-based feature extraction.</li>
-      <li>Conducted large-scale language and behavior modeling using Transformer-based encoders and mixed-effects regression to uncover latent causal drivers of social reciprocity.</li>
-      <li>Presented poster at NAACL 2025; paper accepted in the main conference (<a href="https://aclanthology.org/2025.naacl-long.594/">aclanthology.org/2025.naacl-long.594</a>).</li>
+      <li>Built a zero-shot LLaMA-70B labeling pipeline for doctor communication quality, validated against human ratings; designed a causal mediation model (doctor language &rarr; patient behavior &rarr; outcome); in prep for <em>PNAS</em>.</li>
     </ul>
   </div>
 
   <div class="cv-entry">
     <div class="cv-entry-header">
       <span>NLP Intern, Evisort (acquired by Workday)</span>
-      <span class="cv-entry-date">2021</span>
+      <span class="cv-entry-date">May 2021 &ndash; Aug 2021</span>
     </div>
     <ul>
-      <li>Developed algorithms to redact sensitive information in legal contracts using the Google DLP API and custom regex/XML pipelines.</li>
-      <li>Trained and deployed LightGBM and bi-LSTM NER models in TensorFlow for contract field extraction on a SaaS platform used by enterprise clients.</li>
-      <li>Designed PowerBI dashboards and PostgreSQL queries to analyze document metadata and usage patterns from AWS data sources.</li>
+      <li>Trained LightGBM and bi-LSTM NER models (TensorFlow) for contract field extraction, deployed to production; built sensitive-data redaction pipelines with the Google DLP API.</li>
     </ul>
   </div>
 </section>
@@ -164,5 +142,5 @@ redirect_from:
 
 <section class="cv-section">
   <h2 class="cv-section-title">Technical Skills</h2>
-  <p class="cv-skills">Python &middot; PyTorch &middot; Transformers &middot; vLLM &middot; Optuna &middot; ModernBERT &middot; LoRA Fine-Tuning &middot; Mixture-of-Experts &middot; Distributed / Multi-GPU Training (PyTorch DDP) &middot; Reinforcement Learning &middot; Synthetic Data Generation &middot; Causal Inference &middot; Predictive &amp; Statistical Modeling &middot; LLM Evaluation &amp; Alignment &middot; Instruction-Tuning &middot; Data Efficiency &middot; Prompt Engineering &middot; Data Pipeline Design &middot; Bayesian Modeling</p>
+  <p class="cv-skills">Python &middot; PyTorch &middot; Hugging Face Transformers &middot; PEFT / LoRA &middot; vLLM &middot; SLURM &middot; Git &middot; Hypernetworks &middot; Activation Steering &middot; DPO &middot; Mixture-of-Experts &middot; Multi-GPU Training (DDP) &middot; Bayesian &amp; Variational Inference &middot; Causal Inference &middot; LLM Evaluation &amp; Alignment &middot; Optuna</p>
 </section>
