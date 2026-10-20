@@ -55,7 +55,7 @@ redirect_from:
 <section class="cv-section">
   <h2 class="cv-section-title">Publications (Selected)</h2>
   <ul class="cv-list">
-    <li><span class="venue-tag">Under Review (ARR)</span> Xu, Y., Adams, J., Hu, B., Kumar, S., Jurgens, D., &amp; Basharat, A. (2026). VISTA: Steering LLMs with latent user values inferred from a few survey answers.</li>
+    <li><a class="venue-tag" href="https://arxiv.org/abs/2610.23702">Under Review (ARR)</a> Xu, Y., Adams, J., Hu, B., Kumar, S., Jurgens, D., &amp; Basharat, A. (2026). VISTA: Steering LLMs with latent user values inferred from a few survey answers.</li>
     <li><a class="venue-tag" href="https://arxiv.org/abs/2601.09065">EMNLP 2026 · Oral</a> Xu, Y., &amp; Jurgens, D. (2026). Beyond consensus: Perspectivist modeling and evaluation of annotator disagreement in NLP.</li>
     <li><a class="venue-tag" href="https://aclanthology.org/2026.acl-long.1914/">ACL 2026 · Oral</a> Xu, Y., Derricks, V., Earl, A., &amp; Jurgens, D. (2026). Modeling annotator disagreement with demographic-aware experts and synthetic perspectives.</li>
     <li><a class="venue-tag" href="https://aclanthology.org/2025.naacl-long.594/">NAACL 2025</a> Xu, Y., Chen, H., Rakshit, S., et al., &amp; Jurgens, D. (2025). Causally modeling the linguistic and social factors that predict email response. (Equal contribution)</li>

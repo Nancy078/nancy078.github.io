@@ -8,24 +8,34 @@ redirect_from:
   - /about.html
 ---
 
-<p class="thesis-statement">I build NLP models that treat annotator disagreement as signal rather than noise.</p>
+<p class="thesis-statement">I model how people disagree, then use that to personalize and align LLMs.</p>
 
 Hi! I'm a fourth-year PhD student at the University of Michigan School of
 Information (UMSI), advised by David Jurgens and part of the
 [Blablablab](https://blablablab.si.umich.edu/). I work on NLP and
 computational social science. Before Michigan, I received a BA in Statistics
-and Data Science from UC Berkeley in 2023. In summer 2026 I was a research and development intern at Kitware, where I worked on personalized LLM steering.
+and Data Science from UC Berkeley in 2023. In summer 2026 I was a research and development intern at Kitware, where I built **VISTA**, a system for steering LLMs using values inferred from a short survey.
 
-My research is on <span class="accent-term">annotator disagreement</span> and <span class="accent-term">pluralistic judgment</span>. Standard
-practice aggregates many people's labels into a single "gold standard" and
-treats everything else as error. However, on subjective tasks, that disagreement
-is often meaningful, rooted in who the annotator is, how the task is defined,
-and what the item itself is. I build models that represent diverse human judgments, situated in the annotator’s identities, task, and data factors.
+My research is on <span class="accent-term">pluralistic alignment</span>: modeling how individuals
+and groups differ in their judgments, then using those representations to
+personalize and align LLMs. Standard practice aggregates many people's labels
+into a single "gold standard," treating disagreement as noise — but on
+subjective tasks, that disagreement is often meaningful, rooted in who the
+annotator is and how the task is defined. I build models that preserve it
+instead of averaging it away. My demographic-aware models of <span class="accent-term">annotator
+disagreement</span> capture structured, group-level variation in judgments,
+improving on approaches that collapse disagreement into a single answer (ACL
+2026, oral). More recently, I built **VISTA**, which infers a user's values
+from a few survey answers and steers a frozen LLM toward them, beating
+prompt-based personalization with no added prompt tokens (under review, ARR).
 
 <div class="pub-box" markdown="1">
 
 ## Recent Publications
 
+- <span class="venue-tag">Under Review · ARR</span> Xu, Y., Adams, J., Hu, B., Kumar, S., Jurgens, D., & Basharat, A. (2026).
+  VISTA: Steering LLMs with latent user values inferred from a few survey
+  answers. [[arXiv]](https://arxiv.org/abs/2610.23702)
 - <span class="venue-tag">ACL 2026 · Oral</span> Xu, Y., Derricks, V., Earl, A., & Jurgens, D. (2026). Modeling annotator
   disagreement with demographic-aware experts and synthetic perspectives.
   [[paper]](https://aclanthology.org/2026.acl-long.1914/)
@@ -44,8 +54,8 @@ and what the item itself is. I build models that represent diverse human judgmen
 
 I'm building **B-HAP**, a hierarchical Bayesian framework that generates
 per-annotator LoRA adapters from task, data, and annotator features, pooling
-behavior across population, subgroup, and individual levels.  I'm also working
-on **personalized LLM steering**: inferring a user's latent value profile from
-a handful of survey answers, then turning it into a steering vector to align an LLM with their decisions, with active learning to choose which questions are worth asking.
+behavior across population, subgroup, and individual levels — extending the
+same pluralistic-alignment approach behind VISTA to richer, adapter-based
+personalization.
 
 
